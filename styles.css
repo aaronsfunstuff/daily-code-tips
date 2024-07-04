@@ -30,18 +30,3 @@ input[type="password"] {
 }
 
 
-:root {
-    --background-color: white;
-    --text-color: black;
-}
-
-body {
-    background-color: var(--background-color);
-    color: var(--text-color);
-}
-
-body.dark-mode {
-    --background-color: #121212;
-    --text-color: white;
-}
-
