@@ -29,6 +29,19 @@ input[type="password"] {
     margin-bottom: 10px;
 }
 
-button {
-    padding: 10px 20px;
+
+:root {
+    --background-color: white;
+    --text-color: black;
 }
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+body.dark-mode {
+    --background-color: #121212;
+    --text-color: white;
+}
+
